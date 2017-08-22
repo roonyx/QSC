@@ -25,8 +25,7 @@
       "run_at": "document_end",
 
       "js": [
-        "scripts/jquery-3.2.1.min.js",
-        "scripts/searcher.js"
+        "scripts/jquery-3.2.1.min.js"
       ]
     }
   ],
