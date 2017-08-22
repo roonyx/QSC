@@ -8,5 +8,10 @@ chrome.extension.onMessage.addListener(function (request, sender, sendResponse) 
     var city = request.data.buyer.info.location.city;
     var country = request.data.buyer.info.location.country;
     var searchRequest = searchRequest = name + ' ' + (city || country);
+
+    chrome.tabs.create({
+      active: false,
+      url: 'http://www.google.com/search?q=' + searchRequest.split(' ').join('+')
+    });
   }
 });
