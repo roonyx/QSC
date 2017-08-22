@@ -6,7 +6,6 @@
   "version": "0.0.1",
 
   "browser_action": {
-    "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
 
@@ -25,8 +24,7 @@
       "run_at": "document_end",
 
       "js": [
-        "libs/jquery-3.1.1.min.js",
-        "scripts/content/bootstrap.js"
+        "scripts/bootstrap.js"
       ]
     }
   ],

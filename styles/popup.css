@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  background: #fff;
+  border-radius: 2px;
+  border: 2px solid #e0e0e0;
+  padding: 20px 30px;
+  width: 450px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+h1 {
+  color: #494949;
+  font-size: 24px;
+}
+
+h2 {
+  color: #ccc;
+  font-size: 16px;
+  margin: 10px;
+}
