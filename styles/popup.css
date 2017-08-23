@@ -13,7 +13,6 @@
 h1,
 h2 {
   text-align: center;
-  margin-top: 0;
 }
 
 h1 {
@@ -47,4 +46,19 @@ button:hover:not([disabled]) {
 
 button[disabled] {
   background-color: #b1b1b1;
+}
+
+.loader {
+  border: 4px solid #e0e0e0;
+  border-top: 4px solid #37a000;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
