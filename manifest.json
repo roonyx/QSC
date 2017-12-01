@@ -3,7 +3,7 @@
 
   "name": "QSC",
   "description": "Quick search for customers from Upwork",
-  "version": "0.0.1",
+  "version": "0.2.1",
 
   "browser_action": {
     "default_icon": "icon.png",
@@ -25,7 +25,7 @@
       "run_at": "document_end",
 
       "js": [
-        "scripts/jquery-3.2.1.min.js"
+        "js/page/hello.js"
       ]
     }
   ],
